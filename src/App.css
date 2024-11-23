@@ -1,0 +1,72 @@
+* {
+  margin: 10px;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(./fonts/Inter.ttf);
+  font-weight: bold;
+}
+
+body {
+  background-color: #181C14;
+  
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container {
+  height: 70vh;
+  width: 80%;
+  background-color: #0B192C;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+  0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+  0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-navigation {
+  height: 8vh;
+  width: 80%;
+  background-color: #0B192C;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+  0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+  0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  gap: 70px;
+  color: aliceblue;
+}
+
+.color-1 {
+  color: #FF6500;
+  color: #1E3E62;
+  color: #0B192C;
+  color: #000000;
+}
+
+.color-2 {
+  color: #181C14;
+  color: #3C3D37;
+  color: #697565;
+  color: #ECDFCC;
+}
+
