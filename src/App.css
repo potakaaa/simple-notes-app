@@ -1,5 +1,6 @@
 * {
   margin: 10px;
+  font-family: Inter;
 }
 
 @font-face {
@@ -10,7 +11,7 @@
 
 body {
   background-color: #181C14;
-  
+
 }
 
 .container {
